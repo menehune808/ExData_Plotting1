@@ -32,6 +32,7 @@ while( length(rl<-readLines(con,n=1)) > 0){
    next
  }
  
+ #filter dates
  if(n[[1]][1] == "1/2/2007" || n[[1]][1] == "2/2/2007"){ 
    df<-rbind(df,n[[1]])
    #print(n)
